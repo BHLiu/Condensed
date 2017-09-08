@@ -12,6 +12,7 @@
     color: white;
     letter-spacing: 2px;
     padding: 300px;
+    height: 300px;
     word-spacing: 5px;
     background-image: url("Pictures/bg1.jpeg");
     border: 0.01px solid white;
@@ -51,22 +52,10 @@ body{
     position: relative;
     bottom: 156px;
     left: 130px;
-    cursor:auto;
+    cursor: pointer;
 }
 #button:hover{
     background-color: #8EADFF;
-    border:none;
-    font-family: bebas;
-    font-size: 30px;
-    color: black;
-    letter-spacing: 3px;
-    align-self: auto;
-    padding:90px;
-    border-radius: 20px;
-    position: relative;
-    bottom: 160px;
-    left: 100px;
-    cursor:auto;
 }
 #pic{
 
@@ -92,10 +81,25 @@ body{
 #line{
     height: 3px;
     width: 100px;
-    background-color: #303030;
+    background-color: #C46B21;
     border-radius: 3px;
     position: relative;
     bottom: 140px;
     left: 410px;
+}
+
+#end{
+    background-color: #353555;
+    color: #CBCBCB;
+    text-align: center;
+    font-family: basic;
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+    height: 70px;
+}
+
+#quot{
+    position: relative;
 }
 

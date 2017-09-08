@@ -55,9 +55,10 @@ var quoteAuthors =
 " - D.H. Sidebottom"
 ]
 
-var displaybox = document.getElementById("quotes");
+var displaybox = document.getElementById("quot");
 var num = Math.floor(Math.random()*9);
 var quotedisplayed = quotes[num];
 var authordisplayed = quoteAuthors[num];
 displaybox.innerHTML = quotedisplayed + authordisplayed;
+
 
