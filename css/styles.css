@@ -50,7 +50,7 @@ body{
     border-radius: 20px;
     position: relative;
     bottom: 156px;
-    left: 150px;
+    left: 130px;
     cursor:auto;
 }
 #button:hover{
@@ -64,8 +64,8 @@ body{
     padding:90px;
     border-radius: 20px;
     position: relative;
-    bottom: 156px;
-    left: 140px;
+    bottom: 160px;
+    left: 100px;
     cursor:auto;
 }
 #pic{
@@ -73,7 +73,7 @@ body{
 
     width: 300px;
     position: relative;
-    left: 500px;
+    left: 400px;
     top: 150px;
     border-radius: 20px;
 
@@ -83,8 +83,19 @@ body{
     font-size: 15;
     letter-spacing: 1px;
     position:relative;
-    bottom: 170px;
+    bottom: 150px;
     padding: 30px;
     word-wrap: break-word;
     text-align:center;
 }
+
+#line{
+    height: 3px;
+    width: 100px;
+    background-color: #303030;
+    border-radius: 3px;
+    position: relative;
+    bottom: 140px;
+    left: 410px;
+}
+
