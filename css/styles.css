@@ -1,0 +1,90 @@
+@font-face{
+    src : url("fonts/BEBAS.ttf");
+    font-family: bebas;
+}
+@font-face {
+    src: url("fonts/MyriadPro.ttf");
+    font-family: basic;
+}
+#quotes{
+    font-size: 30px;
+    font-family: bebas;
+    color: white;
+    letter-spacing: 2px;
+    padding: 300px;
+    word-spacing: 5px;
+    background-image: url("Pictures/bg1.jpeg");
+    border: 0.01px solid white;
+    margin: -11px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+body{
+    background-size: 1920px 1080px;
+    background-position-x: -470px;
+    background-color: #FCFCFC;
+}
+#headin{
+    font-size: 30px;
+    font-family: basic;
+    color: #353535;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    display: block;
+}
+#button{
+    background-color: #C9D8FF;
+    border:none;
+    font-family: bebas;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 3px;
+    align-self: auto;
+    padding:80px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 156px;
+    left: 150px;
+    cursor:auto;
+}
+#button:hover{
+    background-color: #8EADFF;
+    border:none;
+    font-family: bebas;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 3px;
+    align-self: auto;
+    padding:90px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 156px;
+    left: 140px;
+    cursor:auto;
+}
+#pic{
+
+
+    width: 300px;
+    position: relative;
+    left: 500px;
+    top: 150px;
+    border-radius: 20px;
+
+}
+.txt{
+    font-family: basic;
+    font-size: 15;
+    letter-spacing: 1px;
+    position:relative;
+    bottom: 170px;
+    padding: 30px;
+    word-wrap: break-word;
+    text-align:center;
+}
