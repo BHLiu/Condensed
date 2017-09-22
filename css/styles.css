@@ -14,7 +14,7 @@
     src: url("fonts/Light.ttf");
     font-family: Light;
 }
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1599px){
     #quotes{
         font-size: 30px;
         font-family: bebas;
@@ -168,10 +168,68 @@
         background-repeat: no-repeat;
         width: 1280px;
 
+        
+    }
+    .tet3{
+        text-align: right;
+        width:667px;
+        color: #101010;
+        position: relative;
+        top:67px;
+        font-size: 33.333px;
+        left:534px;
+    }
+    .b5{
+        background-image: url("Pictures/bg5720.jpg");
+        position: relative;
+        width: 1280px;
+        height: 900px;
+        opacity: 0;
+        background-repeat: no-repeat;
+    }
+    #endbut{
+        position: relative;
+        left: 1033.333px;
+        border: none;
+        background-color: #9EFF81;
+        color: #2E2E2E;
+        height: 67px;
+        width: 200px;
+        border-radius: 15px;
+        font-size: 30px;
+        top: 333px;
+        font-family: light;
+        box-shadow: 5px 5px 10px #555555;
     }
     #container{
         min-width: 1280px;
     }
+    #lay{
+        background-color: black;
+        position:fixed;
+        width: 100%;
+        height:100%;
+        z-index: 1000;
+    }
+    
+    #some{
+        font-family: light;
+        font-size: 100px;
+        position: fixed;
+        left: 333px;
+        top: 133px;
+        z-index: 1001;
+        color:white;
+ 
+}
+#noz{
+    font-family: light;
+    font-size: 100px;
+    position: fixed;
+    left: 333px;
+    top: 133px;
+    z-index: 1001;
+    color:white;
 }
 @media screen and (min-width: 1600px){
 #quotes{
@@ -338,9 +396,9 @@ body{
 
 }
 #container{
-    min-width: 1280px;
+    min-width: 1600px;
 }
-}
+
 .b5{
     background-image: url("Pictures/bg5.jpg");
     height: 1080px;
@@ -363,7 +421,6 @@ body{
     font-family: light;
     box-shadow: 5px 5px 10px #555555;
 }
-
 #lay{
     background-color: black;
     position:fixed;
@@ -380,4 +437,5 @@ body{
     top: 200px;
     z-index: 1001;
     color:white;
+}
 }

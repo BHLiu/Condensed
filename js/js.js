@@ -1,5 +1,8 @@
 alert("This website was developed in 1920x1080, and has been innovated to fit 1280x720. If your dimensions are anything in between...Man up and scroll.")
 $(function(){
+    $('#noz').hide();
+});
+$(function(){
     $('#lay').hide();
 });
 $(function(){
@@ -46,7 +49,17 @@ $(function() {
 $(function(){
     $('#endbut').click(function(){
         $('#lay').fadeTo('slow', 0.7).delay(800, function(){
-            $('#some').fadeTo('slow', 1);
+            $('#some').fadeTo('slow', 1, function(){
+                $('#some').delay(2000).fadeTo('slow', 0, function(){
+                    $('#noz').fadeTo('slow', 1, function(){
+                        $('#noz').delay(2000).fadeTo('slow', 0, function(){
+                            $('#lay').fadeOut('slow');
+
+                        })
+                    });
+                });
+            });
+                
+            });
         });
     })
-})
