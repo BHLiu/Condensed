@@ -53,7 +53,7 @@ $(function(){
                 $('#some').delay(2000).fadeTo('slow', 0, function(){
                     $('#noz').fadeTo('slow', 1, function(){
                         $('#noz').delay(2000).fadeTo('slow', 0, function(){
-                            $('#lay').fadeOut('slow');
+                            $('#lay').delay(1000).hide();
 
                         })
                     });
