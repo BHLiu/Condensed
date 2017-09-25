@@ -6,6 +6,174 @@
     src: url("fonts/MyriadPro.ttf");
     font-family: basic;
 }
+@font-face {
+    src: url("fonts/CaviarDreams.ttf");
+    font-family: CaviarDreams;
+}
+@font-face {
+    src: url("fonts/Light.ttf");
+    font-family: Light;
+}
+@media screen and (max-width: 1600px){
+    #quotes{
+        font-size: 30px;
+        font-family: bebas;
+        color: white;
+        letter-spacing: 2px;
+        padding: 300px;
+        height: 300px;
+        word-spacing: 5px;
+        background-image: url("Pictures/bg1.jpeg");
+        border: 0.01px solid white;
+        margin: -11px;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    
+    }
+    body{
+        background-size: 100% 120%;
+        background-position-x: -470px;
+        background-color: #FFFFFF;
+    }
+    #headin{
+        font-size: 40px;
+        font-family: basic;
+        color: #353535;
+        letter-spacing: 5px;
+        word-spacing: 7px;
+        text-align: center;
+        position: relative;
+        top: 50px;
+        display: block;
+    }
+    #button{
+        background-color: #C9D8FF;
+        border:none;
+        font-family: bebas;
+        font-size: 30px;
+        color: black;
+        letter-spacing: 3px;
+        align-self: auto;
+        padding:140px;
+        height: 100px;
+        border-radius: 20px;
+        position: relative;
+        bottom: 106px;
+        left: 15%;
+        cursor: pointer;
+    }
+    #button:hover{
+        background-color: #8EADFF;
+    }
+    #pic{
+    
+    
+        width: 425px;
+        position: relative;
+        left: 47%;
+        top: 300px;
+        border-radius: 20px;
+    
+    }
+    
+    .txt{
+        font-family: basic;
+        font-size: 20px;
+        letter-spacing: 1px;
+        position:relative;
+        bottom: 100px;
+        padding: 30px;
+        word-wrap: break-word;
+        text-align:center;
+    }
+    
+    #line{
+        height: 3px;
+        width: 100px;
+        background-color: #C46B21;
+        border-radius: 3px;
+        position: relative;
+        bottom: 160px;
+        left: 47%;
+    }
+    
+    #end{
+        background-color: #353555;
+        color: #CBCBCB;
+        text-align: center;
+        font-family: basic;
+        font-size: 10px;
+        position: relative;
+        top: 10px;
+        height: 90px;
+        width: 1280px;
+    }
+    
+    #quot{
+        position: relative;
+        top:50px;
+        text-align: center;
+    }
+    
+    #fill{
+        background-color: white;
+    
+        background-size: 80%;
+        height: 80%;
+        opacity: .2;
+        position: relative;
+        top: 70px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .b2{
+        background-image: url("Pictures/featheredbg720.jpg");
+        height: 800px;
+        position: relative;
+        opacity: 0;
+        background-repeat: no-repeat;
+    }
+    .b3{
+        background-image: url("Pictures/bg3720.jpg");
+        height: 800px;
+        position: relative;
+        opacity: 0;
+        background-repeat: no-repeat;
+        width: 1280px;
+    }
+    
+    .tet{
+        font-family: Light;
+        font-size: 74px;
+        color: #666666;
+        position: relative;
+        width: 467px;
+        text-align: left;
+        margin-left: 40px;
+        top: 250px;
+    }
+    
+    .tet2{
+        text-align: right;
+        left: 725px;
+        line-height: 120px;
+    }
+    .b4{
+        background-image: url("Pictures/bg4720.jpg");
+        height: 800px;
+        position: relative;
+        opacity: 0;
+        background-repeat: no-repeat;
+        width: 1280px;
+
+    }
+    #container{
+        min-width: 1280px;
+    }
+}
+@media screen and (min-width: 1600px){
 #quotes{
     font-size: 30px;
     font-family: bebas;
@@ -24,12 +192,12 @@
 
 }
 body{
-    background-size: 1920px 1080px;
+    background-size: 100% 120%;
     background-position-x: -470px;
-    background-color: #FCFCFC;
+    background-color: #FFFFFF;
 }
 #headin{
-    font-size: 30px;
+    font-size: 40px;
     font-family: basic;
     color: #353535;
     letter-spacing: 5px;
@@ -47,11 +215,12 @@ body{
     color: black;
     letter-spacing: 3px;
     align-self: auto;
-    padding:80px;
+    padding:140px;
+    height: 100px;
     border-radius: 20px;
     position: relative;
-    bottom: 156px;
-    left: 130px;
+    bottom: 106px;
+    left: 25%;
     cursor: pointer;
 }
 #button:hover{
@@ -60,19 +229,20 @@ body{
 #pic{
 
 
-    width: 300px;
+    width: 425px;
     position: relative;
-    left: 400px;
-    top: 150px;
+    left: 47%;
+    top: 300px;
     border-radius: 20px;
 
 }
+
 .txt{
     font-family: basic;
-    font-size: 15;
+    font-size: 20px;
     letter-spacing: 1px;
     position:relative;
-    bottom: 150px;
+    bottom: 100px;
     padding: 30px;
     word-wrap: break-word;
     text-align:center;
@@ -84,8 +254,8 @@ body{
     background-color: #C46B21;
     border-radius: 3px;
     position: relative;
-    bottom: 140px;
-    left: 410px;
+    bottom: 160px;
+    left: 47%;
 }
 
 #end{
@@ -96,10 +266,118 @@ body{
     font-size: 10px;
     position: relative;
     top: 10px;
-    height: 70px;
+    height: 90px;
+    width: 1920px;
 }
 
 #quot{
     position: relative;
+    top:50px;
+    text-align: center;
 }
 
+#fill{
+    background-color: white;
+
+    background-size: 80%;
+    height: 80%;
+    opacity: .2;
+    position: relative;
+    top: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.b2{
+    background-image: url("Pictures/featheredbg.jpg");
+    height: 1080px;
+    position: relative;
+    opacity: 0;
+    background-repeat: no-repeat;
+}
+.b3{
+    background-image: url("Pictures/bg3.jpg");
+    height: 1080px;
+    position: relative;
+    opacity: 0;
+    background-repeat: no-repeat;
+    width: device-width;
+}
+
+.tet{
+    font-family: Light;
+    font-size: 110px;
+    color: #666666;
+    position: relative;
+    width: 700px;
+    text-align: left;
+    margin-left: 40px;
+    top: 250px;
+}
+
+.tet2{
+    text-align: right;
+    left:1125px;
+    line-height: 150px;
+}
+.tet3{
+    text-align: right;
+    width:1000px;
+    color: #101010;
+    position: relative;
+    top:100px;
+    font-size: 50px;
+    left:800px;
+}
+.b4{
+    background-image: url("Pictures/bg4.jpg");
+    height: 1080px;
+    position: relative;
+    opacity: 0;
+    background-repeat: no-repeat;
+    width: 1920px;
+
+}
+#container{
+    min-width: 1280px;
+}
+}
+.b5{
+    background-image: url("Pictures/bg5.jpg");
+    height: 1080px;
+    position: relative;
+    opacity: 0;
+    background-repeat: no-repeat;
+    width: 1920px;
+}
+#endbut{
+    position: relative;
+    left: 1550px;
+    border: none;
+    background-color: #9EFF81;
+    color: #2E2E2E;
+    height: 100px;
+    width: 300px;
+    border-radius: 35px;
+    font-size: 30px;
+    top: 500px;
+    font-family: light;
+    box-shadow: 5px 5px 10px #555555;
+}
+
+#lay{
+    background-color: black;
+    position:fixed;
+    width: 100%;
+    height:100%;
+    z-index: 1000;
+}
+
+#some{
+    font-family: light;
+    font-size: 100px;
+    position: fixed;
+    left: 500px;
+    top: 200px;
+    z-index: 1001;
+    color:white;
+}
