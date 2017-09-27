@@ -14,7 +14,7 @@
     src: url("fonts/Light.ttf");
     font-family: Light;
 }
-@media screen and (max-width: 1599px){
+@media screen and (max-width: 1799px){
     #quotes{
         font-size: 30px;
         font-family: bebas;
@@ -23,7 +23,7 @@
         padding: 300px;
         height: 300px;
         word-spacing: 5px;
-        background-image: url("Pictures/bg1.jpeg");
+        background-image: url("img/bg1.jpeg");
         border: 0.01px solid white;
         margin: -11px;
         position: relative;
@@ -45,12 +45,13 @@
         word-spacing: 7px;
         text-align: center;
         position: relative;
-        top: 50px;
         display: block;
+        bottom: 20px;
     }
     #button{
         background-color: #C9D8FF;
         border:none;
+        position: absolute;
         font-family: bebas;
         font-size: 30px;
         color: black;
@@ -59,24 +60,23 @@
         padding:140px;
         height: 100px;
         border-radius: 20px;
-        position: relative;
-        bottom: 106px;
-        left: 15%;
+        left: 10%;
         cursor: pointer;
+        top:167px;
     }
     #button:hover{
         background-color: #8EADFF;
     }
     #pic{
-    
-    
-        width: 425px;
-        position: relative;
-        left: 47%;
-        top: 300px;
-        border-radius: 20px;
-    
-    }
+        
+        
+            width: 425px;
+            position: absolute;
+            left: 55% ;
+            top:167px;
+            border-radius: 20px;
+        
+        }
     
     .txt{
         font-family: basic;
@@ -88,6 +88,9 @@
         word-wrap: break-word;
         text-align:center;
     }
+    .txt2{
+        top: 350px;
+    }
     
     #line{
         height: 3px;
@@ -95,7 +98,7 @@
         background-color: #C46B21;
         border-radius: 3px;
         position: relative;
-        bottom: 160px;
+        bottom: 60px;
         left: 47%;
     }
     
@@ -129,14 +132,14 @@
         background-repeat: no-repeat;
     }
     .b2{
-        background-image: url("Pictures/featheredbg720.jpg");
+        background-image: url("img/featheredbg720.jpg");
         height: 800px;
         position: relative;
         opacity: 0;
         background-repeat: no-repeat;
     }
     .b3{
-        background-image: url("Pictures/bg3720.jpg");
+        background-image: url("img/bg3720.jpg");
         height: 800px;
         position: relative;
         opacity: 0;
@@ -161,7 +164,7 @@
         line-height: 120px;
     }
     .b4{
-        background-image: url("Pictures/bg4720.jpg");
+        background-image: url("img/bg4720.jpg");
         height: 800px;
         position: relative;
         opacity: 0;
@@ -180,7 +183,7 @@
         left:534px;
     }
     .b5{
-        background-image: url("Pictures/bg5720.jpg");
+        background-image: url("img/bg5720.jpg");
         position: relative;
         width: 1280px;
         height: 900px;
@@ -201,9 +204,7 @@
         font-family: light;
         box-shadow: 5px 5px 10px #555555;
     }
-    #container{
-        min-width: 1280px;
-    }
+
     #lay{
         background-color: black;
         position:fixed;
@@ -231,7 +232,8 @@
     z-index: 1001;
     color:white;
 }
-@media screen and (min-width: 1600px){
+}
+@media screen and (min-width: 1800px){
 #quotes{
     font-size: 30px;
     font-family: bebas;
@@ -240,7 +242,7 @@
     padding: 300px;
     height: 300px;
     word-spacing: 5px;
-    background-image: url("Pictures/bg1.jpeg");
+    background-image: url("img/bg1.jpeg");
     border: 0.01px solid white;
     margin: -11px;
     position: relative;
@@ -268,6 +270,7 @@ body{
 #button{
     background-color: #C9D8FF;
     border:none;
+    position: absolute;
     font-family: bebas;
     font-size: 30px;
     color: black;
@@ -276,10 +279,9 @@ body{
     padding:140px;
     height: 100px;
     border-radius: 20px;
-    position: relative;
-    bottom: 106px;
     left: 25%;
     cursor: pointer;
+    top:250px;
 }
 #button:hover{
     background-color: #8EADFF;
@@ -288,9 +290,9 @@ body{
 
 
     width: 425px;
-    position: relative;
-    left: 47%;
-    top: 300px;
+    position: absolute;
+    left: 50%;
+    top:255px;
     border-radius: 20px;
 
 }
@@ -300,10 +302,13 @@ body{
     font-size: 20px;
     letter-spacing: 1px;
     position:relative;
-    bottom: 100px;
     padding: 30px;
     word-wrap: break-word;
     text-align:center;
+    top: 50px;
+}
+.txt2{
+    top: 350px;
 }
 
 #line{
@@ -311,9 +316,9 @@ body{
     width: 100px;
     background-color: #C46B21;
     border-radius: 3px;
-    position: relative;
-    bottom: 160px;
+    position: absolute;
     left: 47%;
+    top:150px;
 }
 
 #end{
@@ -346,14 +351,16 @@ body{
     background-repeat: no-repeat;
 }
 .b2{
-    background-image: url("Pictures/featheredbg.jpg");
+    background-image: url("img/featheredbg.jpg");
     height: 1080px;
     position: relative;
     opacity: 0;
     background-repeat: no-repeat;
+    width: 1920px;
+    background-position: center;
 }
 .b3{
-    background-image: url("Pictures/bg3.jpg");
+    background-image: url("img/bg3.jpg");
     height: 1080px;
     position: relative;
     opacity: 0;
@@ -387,7 +394,7 @@ body{
     left:800px;
 }
 .b4{
-    background-image: url("Pictures/bg4.jpg");
+    background-image: url("img/bg4.jpg");
     height: 1080px;
     position: relative;
     opacity: 0;
@@ -395,12 +402,10 @@ body{
     width: 1920px;
 
 }
-#container{
-    min-width: 1600px;
-}
+
 
 .b5{
-    background-image: url("Pictures/bg5.jpg");
+    background-image: url("img/bg5.jpg");
     height: 1080px;
     position: relative;
     opacity: 0;
@@ -435,6 +440,15 @@ body{
     position: fixed;
     left: 500px;
     top: 200px;
+    z-index: 1001;
+    color:white;
+}
+#noz{
+    font-family: light;
+    font-size: 100px;
+    position: fixed;
+    left: 500px;
+    top: 300px;
     z-index: 1001;
     color:white;
 }

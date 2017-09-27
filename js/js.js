@@ -1,4 +1,3 @@
-alert("This website was developed in 1920x1080, and has been innovated to fit 1280x720. If your dimensions are anything in between...Man up and scroll.")
 $(function(){
     $('#noz').hide();
 });
@@ -53,7 +52,7 @@ $(function(){
                 $('#some').delay(2000).fadeTo('slow', 0, function(){
                     $('#noz').fadeTo('slow', 1, function(){
                         $('#noz').delay(2000).fadeTo('slow', 0, function(){
-                            $('#lay').fadeOut('slow');
+                            $('#lay').delay(1000).hide();
 
                         })
                     });
